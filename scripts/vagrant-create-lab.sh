@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directories
-directories=("../ElasticLab/elastic" "../ElasticLab/dc01" "../ElasticLab/dc02" "../ElasticLab/srv02")
+directories=("../elastic" "../dc01" "../dc02" "../srv02")
 
 # Loop through each directory
 for dir in "${directories[@]}"; do
